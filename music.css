@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+body{
+    font-family: Spartan sans-serif;
+    background-color: #000000;
+}
+.navbar{
+    margin-bottom: 4%;
+}
+
+.container {
+    /* margin: 10%; */
+    /* margin-top: 10%; */
+    background-color: white;
+
+    /* border: 2px solid; */
+    text-align: center;
+}
+#main-container {
+    /* justify-content: center; */
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px solid white;
+    border-radius: 27px;
+    padding-bottom: 2%;
+
+}
+#mini-container{
+    /* margin-top: -161px; */
+    color: #242323;
+    /* padding-right: 18%; */
+    width: auto      ;
+}
+#img-container {
+    border: 2px solid white;
+    border-radius: 0;
+    height: 350px;
+    width: 500px;
+    margin-top: -50px;
+}
+
+#artist{
+    font-size: 20px;
+}
+#progress-container{
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 20px;
+    margin-bottom: 5px;
+
+    width: 90%;
+    height: 4px;
+}
+#progress{
+    width: 0%;
+    background-color: #242323;
+    border-radius: 5px;
+    height: 100%;
+    transition: width 0.1s linear;
+}
+.duration{
+    float: right;
+}
+.current-time{
+    float: left;
+}
+.duration-wrapper{
+    margin-top: 1%;
+    font-size: 136%;
+}
+
+i {
+    font-size: 2rem;
+    margin: 5%;
+    cursor: pointer;
+}
+
+/* #pause{
+    display: none;
+}
+
+#play{
+    display:initial;
+} */

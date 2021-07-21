@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="music.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.pinimg.com/564x/5e/81/9a/5e819a5ce865476b73087fd1276e7c3e.jpg"
+                    alt="to do application" width="30" height="24" class="d-inline-block align-top">
+                Music Player 
+            </a>
+        </div>
+    </nav>
+
+    <!-- Heading -->
+
+    <!-- Main Container -->
+
+    <div class="container" id="main-container">
+        <img src="images/music album 1.jpg" alt="Billie Eilish Album" id="img-container">
+        <div class="container" id="mini-container">
+            <h1 id="songName">Bad Guy</h1>
+            <h2 id="artist">Billie Eilish</h2>
+            <audio src="music/Billie Eilish - Bad Guy.mp3" id="audio">            </audio>
+            
+        </div>             
+           <div class="duration-wrapper" >
+          <span class="current-time" id="current-time">0.00</span>
+          <span class="duration" id="duration">2.28</span>
+      </div>
+            <div class="progress-container" id="progress-container">
+                <!-- <div class="progress-bar" role="progressbar" ></div> -->
+                <div class="progress" id="progress">
+
+                </div>
+            </div>
+                <div class="buttons">
+                    <i  id = "prev"class="fas fa-backward" ></i>
+                    <i  id = "play"class="fas fa-play"></i>
+                    <i  id = "pause"class="fas fa-pause"></i>
+                    <i  id = "next"class="fas fa-forward"></i>
+                </div>
+    </div>
+</body>
+<script src="music.js"></script>
+
+</html>
